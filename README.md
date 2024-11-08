@@ -31,7 +31,7 @@ This repository provides an overview of essential topics in Microsoft Azure, cov
 
 ---
 
-## 3. Microsoft Azure Services & Lifecycles Course Overview
+## 3. Microsoft Azure Services & Lifecycles 
 
 - **Cloud Security**: Secure access to cloud resources using Azure identity tools.
 - **Governance Strategy**: Develop a robust cloud governance strategy to meet organizational needs.
