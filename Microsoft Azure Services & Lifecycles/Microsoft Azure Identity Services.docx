@@ -1,0 +1,18 @@
+## The difference between authentication and authorization ##
+
+  
+For exemple an organisation needs to ensure that only employees can sign in and access its business applications, and that employees can only access authorized applications based on their roles. 
+  For example, all employees can access inventory and pricing software, but only store managers can access payroll and accounting software. 
+  To achieve this, two key concepts must be understood:
+authentication (AuthN) and authorization (AuthZ).
+
+Authentication is the process of verifying the identity of a person or service wanting to access a resource. This is done by challenging the user for credentials (such as a password) to establish their identity, similar to showing an ID to a doorman before being granted access to a building.
+
+Authorization occurs after authentication and determines what level of access an authenticated person or service has. It defines what data or resources they can access and what actions they can perform. For instance, after showing your ID to the doorman, you may be allowed to access only certain rooms based on the information on your ID.
+
+In summary, authentication proves who you are, while authorization defines what you are allowed to do.
+
+## How Azure Active Directory manages identity and access ## 
+  
+  
+## The roles of single sign-on (SSO), multi-factor authentication (MFA), and Conditional Access in managing user identity  ##
