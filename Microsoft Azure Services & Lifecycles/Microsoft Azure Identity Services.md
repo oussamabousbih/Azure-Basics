@@ -36,6 +36,12 @@ Azure AD is a centralized, scalable solution that empowers organizations, like T
 
 **Multi-Factor Authentication (MFA)**: Adds an extra layer of security by requiring a second form of authentication, like a mobile code or fingerprint, alongside a password. Azure AD offers MFA options based on licensing, allowing administrators to apply additional security as needed.
 
+1. Something you know: This factor relies on knowledge, such as a password, PIN, or answer to a security question. It's something that only the user is supposed to know.
+
+2. Something you have: This factor is based on possession and includes items that the user physically has, like a mobile phone, security token, or a smart card. When you receive a code on your mobile phone for verification, this falls under "something you have" because it requires possession of the phone to retrieve the code.
+
+3. Something you are: This factor refers to biometrics, which are physical characteristics unique to the individual, such as a fingerprint, facial recognition, or iris scan.
+
 **Conditional Access**: Uses identity signals (e.g., location, device) during sign-in attempts to enforce specific access policies. Administrators can allow, block, or require additional authentication based on these signals. This capability balances user productivity with security by ensuring access only from trusted environments or approved devices. The **"What If" tool** in Azure AD allows simulation of conditional access policies to test their impact before implementation.
 
 Together, **SSO**, **MFA**, and **Conditional Access** in Azure AD streamline access management and enhance security for organizations using Microsoft and custom cloud applications.
